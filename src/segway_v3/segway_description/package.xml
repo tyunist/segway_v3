@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>segway_description</name>
+  <version>0.0.1</version>
+  <description>Stanley Innovation Segway V3 URDF descriptions</description>
+  <maintainer email="rmp@stanleyinnovation.com">Patrick Hussey</maintainer>
+
+  <url type="website">http://ros.org/wiki/segway_rmp_v3</url>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>gazebo_plugins</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>hector_gazebo_plugins</run_depend>
+
+
+  <export>
+  </export>
+</package>
